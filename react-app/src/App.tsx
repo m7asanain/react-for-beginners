@@ -1,9 +1,17 @@
-import Alert from "./components/Alert";
+// rafce
+
+import BootstrapButton from "./components/BootstrapButton";
 
 function App() {
   return (
     <div>
-      <Alert>Hello World</Alert>
+      <BootstrapButton
+        // color="danger" - we set a defult value
+        color="secondary"
+        onClick={() => console.log("hello form App.tsx")}
+      >
+        My Button
+      </BootstrapButton>
     </div>
   );
 }
